@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 
 export default function Showroom() {
   const images = [
-    { src: "/public/images/izik.png", caption: "Izik — Developing digital spaces + physical skylight." },
-    { src: "/public/images/dante.PNG", caption: "Xampp — The home of my project databases" },
+    { src: "/images/izik.png", caption: "Izik — Developing digital spaces + physical skylight." },
+    { src: "/images/dante.PNG", caption: "Xampp — The home of my project databases" },
     { src: "/images/solitary.jpg", caption: "The Solitary — A home shaped by silence." },
     { src: "/images/grace.jpg", caption: "The Grace — Balance in light and proportion." },
     { src: "/images/hanks.PNG", caption: "Echoes of the night." },

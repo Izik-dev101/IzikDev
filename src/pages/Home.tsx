@@ -198,11 +198,11 @@ return (
 
 {/* Rotating Glow */}
 <motion.div
-    className="absolute inset-0 flex justify-center items-center"
-    animate={{ rotate: 360 }}
-    transition={{ repeat: Infinity, duration: 25, ease: 'linear' }}
-    >
-    <div className="w-[22rem] h-[22rem] sm:w-[26rem] sm:h-[26rem] lg:w-[28rem] lg:h-[28rem] rounded-full bg-gradient-to-tr from-blue-600 via-purple-700 to-pink-600 blur-3xl opacity-40"></div>
+  className="absolute inset-0 flex justify-center items-center hidden md:flex"
+  animate={{ rotate: 360 }}
+  transition={{ repeat: Infinity, duration: 25, ease: 'linear' }}
+>
+  <div className="w-[22rem] h-[22rem] sm:w-[26rem] sm:h-[26rem] lg:w-[28rem] lg:h-[28rem] rounded-full bg-gradient-to-tr from-blue-600 via-purple-700 to-pink-600 blur-3xl opacity-40"></div>
 </motion.div>
 
 {/* Code Container */}

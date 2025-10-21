@@ -25,10 +25,12 @@ const App = () => {
       <div className="min-h-screen flex flex-col bg-gray-900 text-white">{/* Header */}
         <header className="shadow-md sticky top-0 z-50 bg-gray-900">
           <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
-            <div className="flex items-center gap-1">
-              <img src="/izik.png" alt="Izik Logo" className="h-10 w-10 object-contain" />
-              <h1 className="text-xl font-bold">Izik<span className="text-blue-500">Dev</span></h1>
-            </div>
+            <Link to="/">
+              <div className="flex items-center gap-1">
+                <img src="/izik.png" alt="Izik Logo" className="h-10 w-10 object-contain" />
+                <h1 className="text-xl font-bold">Izik<span className="text-blue-500">Dev</span></h1>
+              </div>
+            </Link>
             <nav className="hidden md:flex gap-8 text-gray-300 font-medium">
               <Link to="/" className="hover:text-blue-500">Home</Link>
               <Link to="/about" className="hover:text-blue-500">About</Link>

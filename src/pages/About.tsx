@@ -52,7 +52,7 @@ export default function About() {
           </Link>
 
           <a
-            href="/public/cv/Ikeogu Zikora.pdf"
+            href="/cv/Ikeogu Zikora.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 rounded-full border border-gray-600 text-gray-300 hover:border-blue-400 hover:text-blue-400 transition-all duration-500 text-center min-w-[140px]"
