@@ -1,73 +1,71 @@
-# React + TypeScript + Vite
+![Portfolio](https://img.shields.io/badge/Portfolio-Live_Soon-blueviolet?style=for-the-badge)
+![React](https://img.shields.io/badge/React-Developer-61DAFB?style=for-the-badge\&logo=react) ![Architecture](https://img.shields.io/badge/Architectural%20Designer-Aspiring-lightgrey?style=for-the-badge)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Izik Codes – Personal Portfolio
 
-Currently, two official plugins are available:
+A modern, fast, and minimal portfolio built with **React + TypeScript + TailwindCSS**, designed to showcase my projects as a Web Developer &  Architectural Designer — blending logic with spatial creativity.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> “Code is more than logic — it's architecture, poetry, and responsibility.”
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+**URL:** *Coming soon — deployed via Netlify & GitHub CI/CD*
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📌 Featured Projects
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+| Project      | Description                          | Live | Repo |
+| ------------ | ------------------------------------ | ---- | ---- |
+| DailyBlog    | A modern community blogging platform | —    | —    |
+| MySchoolAndI | Digital school experience tracker    | —    | —    |
+| Project Two  | Coming soon                          | —    | —    |
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+More will be added as I expand this portfolio.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🛠️ Tech Stack
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+**Core Technologies:**
+
+`React` · `TypeScript` · `TailwindCSS` · `Vite` · `Netlify`
+
+---
+
+## 🎯 Vision / Mission Statement
+
+I design at the intersection of architecture and technology — crafting digital platforms with the same intentionality as physical spaces. Every interface is treated like a structure: functional, human‑centered, and built to endure.
+
+---
+
+## 🚧 Currently Building
+
+* ✅ **DailyBlog** — community-driven blog platform
+* ✅ **MySchoolAndI** — academic activity tracker
+* 🏗️ **Architecture Portfolio** — merging spatial + digital design
+
+---
+
+## 📸 UI Preview
+
+*(Optional — I can add a live screenshot or animated GIF here once deployed)*
+
+---
+
+## 📬 Contact & Socials
+
+* **Email:** [izikdev101@gmail.com](mailto:izikdev101@gmail.com)
+* **Twitter:** [https://twitter.com/izik_4545](https://twitter.com/izik_4545)
+* **GitHub:** [https://github.com/Izik-dev101](https://github.com/Izik-dev101)
+
+---
+
+## 📄 License
+
+This portfolio is **open-source** — you’re free to explore the structure, but commercial use without permission is not allowed.
+
+---
+
