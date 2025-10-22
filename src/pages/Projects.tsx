@@ -28,6 +28,12 @@ export default function Projects() {
     link: "https://drive.google.com/file/d/1wSE-AEm1ak3xf5ZcdFb_KkR3K27yapSL/view?usp=drive_link",
   },
   {
+    title: "The Open",
+    desc: "From IzikDev HeavenStudio — ‘The Open’ is a seven-bedroom ultra-luxury residence shaped around breath and horizon. A sanctuary of air, symmetry, and cinematic procession — where architecture becomes silence, and space becomes invitation.",
+    video: "/videos/castle.mp4",
+    link: "https://drive.google.com/drive/folders/1Wv61b7H5Kqe3__1yvN6DKXaXl126OxtL?usp=drive_link",
+  },
+  {
     title: "Lewis UI",
     desc: "From IzikDev MordenUiStudio — a front-end design system built for elegance in restraint. Lewis UI brings rhythm to digital surfaces, crafting clarity through proportion, and serenity through space.",
     img: "/images/lotor.jpg",
@@ -93,11 +99,22 @@ return (
       >
         {/* Project Image */}
         <div className="h-56 w-full overflow-hidden">
-          <img
-            src={project.img}
-            alt={project.title}
-            className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-          />
+          {project.video ? (
+            <video
+              src={project.video}
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-full object-cover"
+            />
+          ) : (
+            <img
+              src={project.img}
+              alt={project.title}
+              className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+            />
+          )}
         </div>
 
         {/* Project Content */}
