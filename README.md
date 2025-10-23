@@ -1,6 +1,6 @@
-![Portfolio](https://img.shields.io/badge/Portfolio-Live_on_Netlify-success?style=for-the-badge)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live_on_Netlify-success?style=for-the-badge)](https://izik.netlify.app)
 ![React](https://img.shields.io/badge/React-Developer-61DAFB?style=for-the-badge&logo=react)
-![Architecture](https://img.shields.io/badge/Architectural%20Designer-lightgrey)
+[![Architecture](https://img.shields.io/badge/Architectural%20Designer-lightgrey?style=for-the-badge)](https://drive.google.com/drive/folders/17T7AHbLBpGqzjmU57NBCBo7x-6NuCfyk?usp=drive_link)
 
 # Izik – Personal Portfolio
 
